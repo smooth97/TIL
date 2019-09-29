@@ -1,9 +1,34 @@
 ## 문제 1
 두 수를 입력받아 큰 수를 반환하는 함수를 작성하세요.
 
+내 풀이
+```
+const f = (a, b) => {
+    if( a > b ){
+        return a
+    }else {
+        return b
+    }
+}
+```
+
 ## 문제 2
 
 세 수를 입력받아 그 곱이 양수이면 true, 0 혹은 음수이면 false, 둘 다 아니면 에러를 발생시키는 함수를 작성하세요.
+
+내 풀이
+```
+const f = (a, b, c) => {
+    const multiply = a * b * c;
+    if (multiply > 0) {
+        return true
+    }else if (multiply < 0) {
+        return false
+    }else {
+        throw new Error('Error');
+    }
+}
+```
 
 ## 문제 3
 세 수 min, max, input을 입력받아, 다음과 같이 동작하는 함수를 작성하세요.
