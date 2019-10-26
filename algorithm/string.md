@@ -6,6 +6,16 @@ insensitiveEqual('hello', 'hello'); -> true
 insensitiveEqual('hello', 'Hello'); -> true
 insensitiveEqual('hello', 'world'); -> false
 ```
+내 풀이
+```
+const insensitiveEqual = (str1, str2) => {
+    if(str1.toLowerCase() === str2.toLowerCase()){
+        return console.log(true);
+    }else {
+        return console.log(false);
+    }
+}
+```
 
 ## 문제 2
 문자열 s와 자연수 n을 입력받아, 만약 s의 길이가 n보다 작으면 s의 왼쪽에 공백으로 추가해서 길이가 n이 되게 만든 후 반환하고, 아니면 s를 그대로 반환하는 함수를 작성해보세요.
@@ -13,6 +23,19 @@ insensitiveEqual('hello', 'world'); -> false
 ```
 leftPad('hello', 8); -> '   hello'
 leftPad('hello', 3); -> 'hello'
+```
+
+내 풀이
+
+```
+const leftPad = (s, n) => {
+    const tab = n - s.length;
+    if(s.length < n){
+        return ' '.repeat(tab) + s;
+    }else {
+        return s;
+    }
+}
 ```
 
 ## 문제 3
