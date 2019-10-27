@@ -10,11 +10,19 @@
 
 ## Es6
 
+ECMAScript is a standard script language
+자바스크립트 언어의 표준.
+
 ES6 코드는 Babel을 이용하여, ES5 코드로 변환하는 것이 가능하다.
 
-### const / let
-
-block scope
+- const & let - block scope Constructs
+- Class - Class 문법을 제공, constructor 메소드도 사용할 수 있고 extends를 통해서 클래스 상속도 가능.
+- Module - Export, Import 를 이용해 function이나 variables 들을 다른 곳에서 사용할 수 있다.
+- Promise - 비동기 프로세싱을 위해 사용 (Asynchronously) 가독성이 좋으며 중첩된 콜백의 단점을 완화함.
+- 화살표 함수 - 화살표 함수는 자신의 this가 바인드 되지 않기 때문에 함수의 스코프에서의 this 가 적용됨.
+- 비구조화 할당 - 객체나 배열의 필드 값을 원하는 개별 변수에 대입할 수 있다.
+- 템플릿 리터럴 - + 연산자를 사용하지 않아도 간단한 방법으로 새로운 문자열을 삽입할 수 있는 기능을 제공
+- spread - 원본 배열을 바꾸지 않고 열거 가능한 요소를 하나씩 전개한다.
 
 ## 비동기
 
