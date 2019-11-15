@@ -17,3 +17,12 @@ class Foods {
 const taco = new Foods("타코");
 taco.addBrand("타코벨");
 taco.print();
+
+function add(x) {
+  const y = x + 1;
+  return y;
+}
+
+const add2 = new add();
+
+console.log(add2);
