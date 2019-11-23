@@ -128,3 +128,7 @@ URI - Uniform Resource Identifier 자원 식별자
 - route에 resource, id 외의 정보가 들어가는 경우
 
 ## Node.js
+
+JavaScript를 크롬(Chrome)같은 브라우저에서만 쓰는 것이 아닌 브라우저 밖. 즉, 내 컴퓨터에서 다양한 용도로 확장하기 위해 만들어진 것이 바로 Node.js입니다. Node.js를 이용하면 Python과 같이 내 컴퓨터에서 File System를 이용할 수 있고, 서버를 만들 수도 있고 크롤링도 할 수 있습니다. JavaScript도 Python과 같은 프로그래밍 언어이기 때문입니다.
+
+Node.js를 이용하여 서버를 만들곤하지만, Node.js 자체는 웹서버가 아닙니다. 위에 말씀드렸다싶이 Node.js는 자바스크립트 런타임(JavaScript Runtime)으로 Node.js는 웹 서버를 만들 수 있는 하나의 방법에 불과합니다.
